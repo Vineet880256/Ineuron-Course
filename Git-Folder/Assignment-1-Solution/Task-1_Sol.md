@@ -1,8 +1,8 @@
 ### Task 1 Solution File
 #### 15 basic commands of Git
 
-1. git branch
-This command is used to create a new branch or used to see existing branches.
+1. git branch <br>
+##This command is used to create a new branch or used to see existing branches.
 
 2. git status
 This command track the updates on working directory and staged snapshot
