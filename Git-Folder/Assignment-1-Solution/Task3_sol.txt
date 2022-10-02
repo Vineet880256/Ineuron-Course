@@ -2,7 +2,7 @@ Create a Issue in your github repository.-> Done
 Raise a pull request. ->Done
 Merge A pull request. -> Done
 Reject a pull request with proper comments.
-Add a Dependabot alerts in your github.(for above cases)
+Add a Dependabot alerts in your github.(for above cases) -> Done
 Stash changes
 Create a release your package
-Setup a Projects Board for your project
+Setup a Projects Board for your project -> Done
