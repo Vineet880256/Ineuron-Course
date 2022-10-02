@@ -1,5 +1,5 @@
 Create a Issue in your github repository. -> Done
-Raise a pull request.
+Raise a pull request. -> Done
 Merge A pull request.
 Reject a pull request with proper comments.
 Add a Dependabot alerts in your github.(for above cases)
