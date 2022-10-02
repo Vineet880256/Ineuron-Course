@@ -1,6 +1,6 @@
 Create a Issue in your github repository.-> Done
 Raise a pull request. ->Done
-Merge A pull request.
+Merge A pull request. -> Done
 Reject a pull request with proper comments.
 Add a Dependabot alerts in your github.(for above cases)
 Stash changes
