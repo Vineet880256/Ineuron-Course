@@ -18,5 +18,4 @@ jobs:
       run: 
           docker build -t vineet880/hello-fast-api .
           docker login -u vineet880 -p dckr_pat_DngVa2IHzGgBuzcvE94HL7j-yGs
-          docker tag hello-fast-api vineet880/hello-fast-api
-          docker push vineet880/hello-fast-api
+          docker push vineet880/hello-fast-api:version1
