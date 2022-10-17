@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/Assignment-Sol-2/Hello-World/checkout@v3
 
       - name: Log in to Docker Hub
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
@@ -23,7 +23,6 @@ jobs:
         run:
           docker build -t ${{ secrets.DOCKER_USERNAME }}/hello-fast-api .
 
-      - name: Docker Push
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/express-typescript-docker
-             docker push ${{ secrets.DOCKER_USERNAME }}/hello-fast-api:version1
+      - name: Push Docker Image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/hello-fast-api:version1
 
